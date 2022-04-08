@@ -1,0 +1,247 @@
+.body {
+  background-color: #000;
+  width: 100%;
+  max-width: 100%;
+  display: inline-block;
+}
+
+/*navigation bar*/
+.info {
+  list-style-type: none;
+  display: flex;
+  gap: 1.9rem;
+  width: 100%;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 1rem;
+  position: fixed;
+  border-bottom: 0.1rem solid;
+  background: #000;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.link:hover {
+  color: #4a4a4a;
+  border-bottom: solid;
+}
+.link {
+  color: #94b1c9;
+  margin: inherit;
+}
+.icon {
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+}
+.icon:hover {
+  color: #4a4a4a;
+}
+#menu-btn {
+  display: none;
+}
+
+.search {
+  /*color:#ffff;
+		width: 100%;
+		height: 100%;
+		text-transform: none;
+		padding: 1rem;
+		font-size: 1.6rem;*/
+  position: absolute;
+  top: 115%;
+  right: 7%;
+  width: 50rem;
+  color: #0000;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  transform: scaleY(0);
+  transform-origin: top;
+}
+#search-box {
+  width: 100%;
+  height: 70%;
+  font-size: 20px;
+  color: black;
+  padding: 1rem;
+  text-transform: none;
+}
+#srch {
+  cursor: pointer;
+  font-size: 2.2rem;
+  margin-right: 1.5rem;
+  color: black;
+}
+#srch:hover {
+  color: yellow;
+}
+
+.title {
+  color: white;
+  font-family: cursive;
+  width: 100%;
+}
+/*homepage fading animation
+.container {
+  width: 800px;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+}*/
+
+.welc {
+  text-align: center;
+  font-family: cursive;
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-30%, -50%);
+  font-size: 50px;
+  border-right: 0.2rem solid white;
+  width: 100%;
+  list-style-type: none;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 15s steps(14, end) forwards infinite, blink 0.2s infinite;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: orange;
+  }
+}
+ul {
+  list-style-type: none;
+}
+
+/*end of home page*/
+/*menu*/
+.food {
+  font-family: cursive;
+  color: white;
+  width: 50%;
+  max-width: 900px;
+}
+.place {
+  text-align: center;
+  color: white;
+}
+.meal {
+  box-shadow: 10px 10px 15px 15px #5555;
+  border-radius: 6px;
+  padding: 0.625rem;
+  text-align: center;
+  width: 25rem;
+  line-height: 1.7rem;
+  float: right;
+  font-size: 20px;
+  font-family: cursive;
+  color: white;
+}
+
+.mutura {
+  box-shadow: 10px 10px 15px 15px #5555;
+  border-radius: 6px;
+  text-align: center;
+  margin: auto;
+  width: 25rem;
+  line-height: 1.7rem;
+  float: right;
+  font-size: 20px;
+  font-family: cursive;
+  color: white;
+}
+@media screen and (min-width: 250px) {
+  .form {
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px #414a4c;
+    width: 20rem;
+    height: 40.5rem;
+    margin: auto;
+    font-size: 18px;
+    font-family: cursive;
+    color: white;
+  }
+}
+.fa-twitter {
+  color: white;
+  background: purple;
+  border-radius: 10px;
+}
+.fa-instagram {
+  background: rgb(240, 192, 116);
+  color: white;
+  border-radius: 10px;
+}
+.fa-telegram {
+  background: rgb(43, 43, 180);
+  color: white;
+  border-radius: 10px;
+}
+.fa-facebook {
+  color: white;
+  background: rgba(57, 57, 211, 0.637);
+  border-radius: 10px;
+}
+.fa-twitter {
+  color: white;
+  background: purple;
+  border-radius: 10px;
+}
+.fa-instagram {
+  background: rgb(240, 192, 116);
+  color: white;
+  border-radius: 10px;
+}
+.fa-telegram {
+  background: rgb(43, 43, 180);
+  color: white;
+  border-radius: 10px;
+}
+.fa-whatsapp {
+  background: rgb(17, 245, 17);
+  color: white;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background: #468486;
+}
+.foot {
+  text-align: center;
+  font-family: cursive;
+  color: white;
+}
+#logo {
+  width: 2.1rem;
+  height: 2.1rem;
+}
+
+.copy {
+  font-family: cursive;
+  color: white;
+}
